@@ -1,0 +1,18 @@
+Package: BuildingRPackagesAssignment
+Type: Package
+Title: Building R Packages - Week 4's Assignment
+Version: 0.1.0
+Author: Pedro Garcia
+Maintainer: N/A
+Description: Package corresponding to the final assignment from the online course
+    "Building R Packages" from the Johns Hopkins University.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    readr,
+    dplyr,
+    tidyr,
+    maps,
+    graphics,
+    usethis
