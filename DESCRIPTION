@@ -21,3 +21,4 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/pgarciamartinez/BuildingRPackagesAssignment
 BugReports: https://github.com/pgarciamartinez/BuildingRPackagesAssignment/issues
+RoxygenNote: 7.1.0
