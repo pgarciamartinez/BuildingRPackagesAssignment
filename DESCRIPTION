@@ -2,8 +2,7 @@ Package: BuildingRPackagesAssignment
 Type: Package
 Title: Building R Packages - Week 4's Assignment
 Version: 0.1.0
-Author: Pedro Garcia
-Maintainer: N/A
+Authors@R: person("Random", "Name", email = "random.name@randomnames.com", role = c("aut", "cre"))
 Description: Package corresponding to the final assignment from the online course
     "Building R Packages" from the Johns Hopkins University.
 License: GPL-3
@@ -16,3 +15,9 @@ Imports:
     maps,
     graphics,
     usethis
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/pgarciamartinez/BuildingRPackagesAssignment
+BugReports: https://github.com/pgarciamartinez/BuildingRPackagesAssignment/issues
