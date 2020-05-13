@@ -13,6 +13,6 @@ fars_read(filename)
 This function returns a data frame (tbl_df).
 }
 \description{
-This is a simple function that reads a CSV file (after checking if it exists) and places 
+This is a simple function that reads a CSV file (after checking if it exists) and places
 its content into a data frame without showing any messages to the user along the process.
 }

@@ -7,7 +7,7 @@
 fars_summarize_years(years)
 }
 \arguments{
-\item{years}{A list of character strings or numeric values that provides the individual years to 
+\item{years}{A list of character strings or numeric values that provides the individual years to
 be used in the file names}
 }
 \value{
@@ -16,6 +16,6 @@ This function simply returns or prints out tables with summaries split by year o
 }
 \description{
 This function first joins the results provided by the function "fars_read_years", then groups the
-data by the variables "year" and 'MONTH", followed by the grouping by the number of rows in each 
+data by the variables "year" and 'MONTH", followed by the grouping by the number of rows in each
 group and finally splitting the year observations into columns.
 }

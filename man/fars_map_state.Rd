@@ -15,8 +15,8 @@ fars_map_state(state.num, year)
 This function plots in a map the locations where accidents occur for a given state.
 }
 \description{
-Before plotting any accident on the map, this function contains two initial checks: first, by 
-checking that the state number is valid and, second, by seeing if there were no accidents in that 
+Before plotting any accident on the map, this function contains two initial checks: first, by
+checking that the state number is valid and, second, by seeing if there were no accidents in that
 state. For the first type of check, the error message is "invalid STATE number: %d" with %d being
 the state ID provided. The second type of check prints the message "no accidents to plot" if no
 observations are present in the data frame for that state.

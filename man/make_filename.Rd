@@ -2,7 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{make_filename}
 \alias{make_filename}
-\title{Printing "accident_%d.csv.bz2" where %d gets replaced by the year that gets passed as an input.}
+\title{Printing "accident_d.csv.bz2" where d gets replaced by the year that gets passed as an input.}
 \usage{
 make_filename(year)
 }
@@ -11,7 +11,7 @@ make_filename(year)
 The first command within the function coerces the type of the variable year into an integer.}
 }
 \value{
-NULL. This function simply prints out the name of the compressed file that should contain some 
+NULL. This function simply prints out the name of the compressed file that should contain some
    data.
 }
 \description{
