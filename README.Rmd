@@ -16,9 +16,11 @@ knitr::opts_chunk$set(
 # BuildingRPackagesAssignment
 
 <!-- badges: start -->
+[![Build Status](https://travis-ci.org/pgarciamartinez/BuildingRPackagesAssignment.svg?branch=master)](https://travis-ci.org/pgarciamartinez/BuildingRPackagesAssignment)
 <!-- badges: end -->
 
-The goal of BuildingRPackagesAssignment is to ...
+The goal of BuildingRPackagesAssignment is to generate a sample package to pass an assignment from the course
+"Building R Packages" from the Johns Hopkins University offered in Coursera.
 
 ## Installation
 
@@ -41,20 +43,22 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(BuildingRPackagesAssignment)
 ## basic example code
+fars_map_state(1, 2015)
+
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
 ```{r cars}
-summary(cars)
+globalVariables(c("STATE", "MONTH", "year", "n"))
 ```
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
 
 You can also embed plots, for example:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+```{r, echo = FALSE}
+fars_map_state(1, 2015)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!

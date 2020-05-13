@@ -43,7 +43,7 @@ fars_read <- function(filename) {
 #' @export
 make_filename <- function(year) {
         year <- as.integer(year)
-        sprintf("accident_%d.csv.bz2", year)
+        system.file("extdata", sprintf("accident_%d.csv.bz2", year), package="BuildingRPackagesAssignment")
 }
 
 #' Showing table with month and year for each year in the list passed as an input.

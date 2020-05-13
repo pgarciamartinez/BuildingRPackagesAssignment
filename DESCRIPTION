@@ -14,7 +14,9 @@ Imports:
     tidyr,
     maps,
     graphics,
-    usethis
+    usethis,
+    magrittr,
+    testthat
 Suggests: 
     knitr,
     rmarkdown
