@@ -44,17 +44,12 @@ fars_map_state(1, 2015)
 What is special about using `README.Rmd` instead of just `README.md`?
 You can include R chunks like so:
 
-``` r
-globalVariables(c("STATE", "MONTH", "year", "n"))
-#> [1] "STATE" "MONTH" "year"  "n"
-```
-
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date.
 
 You can also embed plots, for example:
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub\!

@@ -159,3 +159,9 @@ fars_map_state <- function(state.num, year) {
                 graphics::points(LONGITUD, LATITUDE, pch = 46)
         })
 }
+
+## Reference: https://stat.ethz.ch/R-manual/R-devel/library/utils/html/globalVariables.html
+## This package has some code that assigns "STATE", "MONTH", "year" and "n"
+## but not in a way that codetools can find.
+## In the same source file (to remind you that you did it) add:
+if(getRversion() >= "2.15.1")  utils::globalVariables(c("STATE", "MONTH", "year", "n"))
