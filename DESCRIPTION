@@ -14,11 +14,11 @@ Imports:
     tidyr,
     maps,
     graphics,
-    usethis,
-    testthat
+    usethis
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
 URL: https://github.com/pgarciamartinez/BuildingRPackagesAssignment
 BugReports: https://github.com/pgarciamartinez/BuildingRPackagesAssignment/issues
