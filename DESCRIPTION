@@ -15,7 +15,6 @@ Imports:
     maps,
     graphics,
     usethis,
-    magrittr,
     testthat
 Suggests: 
     knitr,
