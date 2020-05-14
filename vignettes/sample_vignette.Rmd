@@ -16,4 +16,6 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(BuildingRPackagesAssignment)
+
+fars_map_state(1, 2015)
 ```
